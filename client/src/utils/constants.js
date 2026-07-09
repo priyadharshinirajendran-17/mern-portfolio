@@ -18,9 +18,9 @@ export const PERSONAL_INFO = {
 
 export const ABOUT = {
   paragraphs: [
-    "I'm an MCA student and full-stack developer who enjoys turning ideas into working products. My core stack is React.js, Node.js, Express, and MongoDB, and I care about writing clean, readable code over clever code.",
-    "Alongside web development, I've worked on an AI/ML project — a CNN-based medical imaging system — which taught me how to think about accuracy, data security, and real-world constraints, not just model performance.",
-    "I'm currently building hands-on experience with DevOps fundamentals — Linux, Docker, CI/CD concepts, and AWS basics — because I want to understand not just how an app is built, but how it's shipped and kept running.",
+    "I'm an MCA student learning to build full-stack web applications with React.js, Node.js, Express, and MongoDB. I enjoy the process of turning an idea into something that actually works, and I'm always looking for the next thing to learn.",
+    "Alongside web development, I explored AI/ML through a college project — a CNN-based medical imaging system — which gave me a first real taste of working with data, model accuracy, and security considerations.",
+    "I'm currently exploring the basics of DevOps — Linux, Docker, CI/CD concepts, and AWS fundamentals — because I want to understand not just how an app is built, but how it's deployed and kept running. Still early days, but I'm excited to keep growing in this direction.",
   ],
 };
 
