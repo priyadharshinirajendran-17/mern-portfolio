@@ -1,0 +1,2 @@
+Add your resume PDF here as "resume.pdf" so the "Download Resume" button
+on the site (which links to /resume.pdf) works. Delete this file once you do.

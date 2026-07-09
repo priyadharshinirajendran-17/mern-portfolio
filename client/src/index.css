@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-bg text-text-primary font-body antialiased;
+    background-image: theme("backgroundImage.grid-glow");
+    background-attachment: fixed;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+
+  ::selection {
+    @apply bg-primary/40 text-text-primary;
+  }
+
+  /* Visible keyboard focus ring for accessibility */
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible {
+    outline: 2px solid theme("colors.accent.DEFAULT");
+    outline-offset: 2px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: theme("colors.bg.DEFAULT");
+  }
+  ::-webkit-scrollbar-thumb {
+    background: theme("colors.primary.dark");
+    border-radius: 8px;
+  }
+}
+
+@layer components {
+  .section {
+    @apply mx-auto max-w-6xl px-6 py-20 md:px-10;
+  }
+
+  .glass-card {
+    @apply rounded-2xl border border-border bg-white/[0.03] backdrop-blur-sm shadow-card;
+  }
+
+  .eyebrow {
+    @apply font-mono text-xs uppercase tracking-[0.2em] text-accent;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-brand bg-clip-text text-transparent;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-full bg-gradient-brand px-6 py-3 font-medium text-bg shadow-glow transition-transform duration-200 hover:scale-[1.03] active:scale-[0.98];
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 font-medium text-text-primary transition-colors duration-200 hover:border-accent hover:text-accent;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
