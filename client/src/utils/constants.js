@@ -10,8 +10,8 @@ export const PERSONAL_INFO = {
   phone: "+91 9080738403",
   resumeUrl: "/resume.pdf", // place your resume PDF in client/public/resume.pdf
   socials: {
-    github: "https://github.com/your-username", // TODO: replace with your GitHub URL
-    linkedin: "https://linkedin.com/in/your-profile", // TODO: replace with your LinkedIn URL
+    github: "https://github.com/priyadharshinirajendran-17", // TODO: replace with your GitHub URL
+    linkedin: "https://www.linkedin.com/in/priyadharshin-rajendran/", // TODO: replace with your LinkedIn URL
     email: "mailto:priyadharshinirajendran1701@gmail.com",
   },
 };

@@ -81,7 +81,7 @@ const skills = [
   { name: "Docker (Basics)", category: "Tools", level: 40, order: 3 },
 
   // Cloud
-  { name: "AWS (EC2, S3, IAM basics)", category: "Cloud", level: 45, order: 1 },
+  { name: "AWS (basics)", category: "Cloud", level: 45, order: 1 },
   { name: "MongoDB Atlas", category: "Cloud", level: 70, order: 2 },
   { name: "Render", category: "Cloud", level: 65, order: 3 },
 ];
