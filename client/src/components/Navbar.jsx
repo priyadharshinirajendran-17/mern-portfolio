@@ -29,12 +29,8 @@ const Navbar = () => {
         scrolled ? "bg-bg/80 backdrop-blur-md border-b border-border" : "bg-transparent"
       }`}
     >
-      <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 md:px-10">
-        <a href="#hero" className="font-mono text-lg font-semibold gradient-text">
-          {"<PR />"}
-        </a>
-
-        <ul className="hidden items-center gap-8 md:flex">
+      <nav className="mx-auto flex max-w-6xl items-center justify-end px-6 py-4 md:px-10">
+  <ul className="hidden items-center gap-8 md:flex">
           {NAV_LINKS.map((link) => (
             <li key={link.href}>
               <a

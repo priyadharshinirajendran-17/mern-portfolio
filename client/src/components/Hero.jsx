@@ -115,7 +115,7 @@ const Hero = () => {
             </div>
             <div className="space-y-1.5 px-5 py-5 text-text-muted">
               <p><span className="text-primary-light">const</span> <span className="text-accent">developer</span> = {"{"}</p>
-              <p className="pl-4">name: <span className="text-green-300">'Priyadharshini R'</span>,</p>
+              <p className="pl-4">name: <span className="text-green-300">'Priyadharshini Rajendren'</span>,</p>
               <p className="pl-4">role: <span className="text-green-300">'MERN Stack Developer'</span>,</p>
               <p className="pl-4">stack: [<span className="text-green-300">'React'</span>, <span className="text-green-300">'Node'</span>, <span className="text-green-300">'Express'</span>, <span className="text-green-300">'MongoDB'</span>],</p>
               <p className="pl-4">learning: [<span className="text-green-300">'Docker'</span>, <span className="text-green-300">'AWS'</span>, <span className="text-green-300">'CI/CD'</span>],</p>
