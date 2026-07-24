@@ -3,8 +3,8 @@
 
 export const PERSONAL_INFO = {
   name: "Priyadharshini Rajendran",
-  role: "MERN Stack Developer",
-  tagline: "MCA student passionate about the MERN stack, eager to learn, build, and grow as a full-stack developer.",
+  role: "Full-Stack Developer | AI Enthusiast",
+  tagline: "MCA student passionate about Full-Stack Development and AI-powered applications using React.js, FastAPI, PostgreSQL, and Large Language Models.",
   location: "Trichy, Tamil Nadu, India",
   email: "priyadharshinirajendran1701@gmail.com",
   phone: "+91 9080738403",
@@ -18,9 +18,7 @@ export const PERSONAL_INFO = {
 
 export const ABOUT = {
   paragraphs: [
-    "I'm an MCA student learning to build full-stack web applications with React.js, Node.js, Express, and MongoDB. I enjoy the process of turning an idea into something that actually works, and I'm always looking for the next thing to learn.",
-    "Alongside web development, I explored AI/ML through a college project — a CNN-based medical imaging system — which gave me a first real taste of working with data, model accuracy, and security considerations.",
-    "I'm currently exploring the basics of DevOps — Linux, Docker, CI/CD concepts, and AWS fundamentals — because I want to understand not just how an app is built, but how it's deployed and kept running. Still early days, but I'm excited to keep growing in this direction.",
+    "I'm an MCA student with hands-on experience building full-stack web applications using React.js, Node.js, FastAPI, Express.js, MongoDB, and PostgreSQL. I enjoy solving real-world problems through scalable web applications and AI-powered solutions."
   ],
 };
 
@@ -72,67 +70,142 @@ export const CERTIFICATIONS = [
 
 // Fallback data used if the API is unreachable, so the site never shows
 // an empty section during local development before the DB is seeded.
+
 export const FALLBACK_PROJECTS = [
+  {
+    _id: "fallback-0",
+    title: "AI-First CRM",
+    description: [
+      "Developed an AI-powered CRM application using React.js and FastAPI to manage customer interactions through intelligent workflows.",
+      "Built RESTful APIs with FastAPI, SQLAlchemy, and PostgreSQL for efficient CRUD operations and secure data management.",
+      "Integrated a LangGraph-powered AI agent to summarize interactions, search HCP records, edit interactions, and generate intelligent follow-up suggestions.",
+      "Implemented Redux Toolkit for state management and created a responsive UI with real-time API communication.",
+    ],
+    technologies: [
+      "React.js",
+      "FastAPI",
+      "Python",
+      "PostgreSQL",
+      "LangGraph",
+      "LLM",
+      "Redux Toolkit",
+      "SQLAlchemy",
+    ],
+    githubUrl: "https://github.com/priyadharshinirajendran-17/ai-first-crm",
+    liveUrl: "https://ai-first-crm-ten.vercel.app",
+    featured: true,
+  },
+
   {
     _id: "fallback-1",
     title: "Brain Tumor Detection using Deep Learning",
     description: [
       "MRI-based brain tumor detection system built with multiple CNN architectures.",
-      "Compared several models including EfficientNetB0 and MobileNet for accuracy.",
+      "Compared EfficientNetB0 and MobileNet models to improve prediction accuracy.",
       "Secured patient data using AES encryption and PBKDF2-based authentication.",
-      "Built an image upload flow with a real-time prediction dashboard.",
+      "Developed an image upload workflow with real-time prediction results.",
     ],
-    technologies: ["Python", "Flask", "TensorFlow", "EfficientNetB0", "MobileNet", "AES", "PBKDF2"],
-    githubUrl: "https://github.com/your-username/brain-tumor-detection",
+    technologies: [
+      "Python",
+      "Flask",
+      "TensorFlow",
+      "EfficientNetB0",
+      "MobileNet",
+      "AES",
+      "PBKDF2",
+    ],
+    githubUrl: "",
     liveUrl: "",
     featured: true,
   },
+
   {
     _id: "fallback-2",
-    title: "Smart Recruitment and Candidate Tracking System",
+    title: "Smart Recruitment & Candidate Tracking System",
     description: [
-      "Full-stack recruitment platform for managing candidates through the hiring pipeline.",
-      "Implemented resume upload, candidate search, and a recruiter dashboard.",
-      "Added JWT-based authentication to protect recruiter-only actions.",
+      "Developed a full-stack recruitment platform for managing candidates throughout the hiring process.",
+      "Implemented candidate search, resume management, recruiter dashboard, and CRUD operations.",
+      "Integrated authentication and backend APIs using React, Node.js, Express.js, and MongoDB.",
     ],
-    technologies: ["React", "Node.js", "Express", "MongoDB", "JWT"],
-    githubUrl: "https://github.com/your-username/smart-recruitment-system",
+    technologies: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+    ],
+    githubUrl: "",
     liveUrl: "",
     featured: true,
   },
+
   {
     _id: "fallback-3",
     title: "Personal MERN Portfolio",
     description: [
-      "This portfolio website itself — a full MERN stack application.",
-      "Dynamic project and skill data served from a MongoDB-backed REST API.",
-      "Includes a working contact form that stores messages in the database.",
+      "Designed and developed a responsive portfolio website using the MERN stack.",
+      "Displays projects, skills, education, certifications, and experience dynamically.",
+      "Includes a contact form and REST API integration with MongoDB.",
     ],
-    technologies: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
-    githubUrl: "https://github.com/your-username/mern-portfolio",
-    liveUrl: "",
+    technologies: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Tailwind CSS",
+    ],
+    githubUrl: "https://github.com/priyadharshinirajendran-17/mern-portfolio",
+    liveUrl: "https://mern-portfolio-wheat-omega.vercel.app/",
     featured: false,
   },
 ];
 
 export const FALLBACK_SKILLS = [
-  { _id: "s1", name: "React.js", category: "Frontend", level: 85 },
+  // Frontend
+  { _id: "s1", name: "React.js", category: "Frontend", level: 90 },
   { _id: "s2", name: "JavaScript (ES6+)", category: "Frontend", level: 85 },
   { _id: "s3", name: "HTML5 & CSS3", category: "Frontend", level: 90 },
-  { _id: "s4", name: "Tailwind CSS", category: "Frontend", level: 80 },
-  { _id: "s5", name: "Node.js", category: "Backend", level: 75 },
-  { _id: "s6", name: "Express.js", category: "Backend", level: 75 },
-  { _id: "s7", name: "REST APIs", category: "Backend", level: 80 },
-  { _id: "s8", name: "MongoDB", category: "Database", level: 75 },
-  { _id: "s9", name: "MySQL", category: "Database", level: 65 },
-  { _id: "s10", name: "Java", category: "Programming", level: 70 },
-  { _id: "s11", name: "Python", category: "Programming", level: 80 },
-  { _id: "s12", name: "Git & GitHub", category: "Tools", level: 80 },
-  { _id: "s13", name: "Postman", category: "Tools", level: 75 },
-  { _id: "s14", name: "Docker (Basics)", category: "Tools", level: 40 },
-  { _id: "s15", name: "AWS (basics)", category: "Cloud", level: 45 },
-  { _id: "s16", name: "MongoDB Atlas", category: "Cloud", level: 70 },
-  { _id: "s17", name: "Render", category: "Cloud", level: 65 },
+  { _id: "s4", name: "Tailwind CSS", category: "Frontend", level: 85 },
+
+  // Backend
+  { _id: "s5", name: "Node.js", category: "Backend", level: 80 },
+  { _id: "s6", name: "Express.js", category: "Backend", level: 80 },
+  { _id: "s7", name: "FastAPI", category: "Backend", level: 80 },
+  { _id: "s8", name: "REST APIs", category: "Backend", level: 85 },
+
+  // Database
+  { _id: "s9", name: "MongoDB", category: "Database", level: 80 },
+  { _id: "s10", name: "PostgreSQL", category: "Database", level: 75 },
+  { _id: "s11", name: "MySQL", category: "Database", level: 70 },
+
+  // Programming
+  { _id: "s12", name: "Python", category: "Programming", level: 85 },
+  { _id: "s13", name: "Java", category: "Programming", level: 75 },
+
+  // AI
+  { _id: "s14", name: "LangGraph", category: "AI", level: 75 },
+  { _id: "s15", name: "LLM Integration", category: "AI", level: 75 },
+  { _id: "s16", name: "Prompt Engineering", category: "AI", level: 70 },
+
+  // Tools
+  { _id: "s17", name: "Git & GitHub", category: "Tools", level: 85 },
+  { _id: "s18", name: "Postman", category: "Tools", level: 85 },
+  { _id: "s19", name: "Swagger", category: "Tools", level: 75 },
+  { _id: "s20", name: "Docker (Basics)", category: "Tools", level: 60 },
+
+  // Cloud
+  { _id: "s21", name: "AWS (Basics)", category: "Cloud", level: 60 },
+  { _id: "s22", name: "MongoDB Atlas", category: "Cloud", level: 75 },
+  { _id: "s23", name: "Render", category: "Cloud", level: 70 },
+  { _id: "s24", name: "Vercel", category: "Cloud", level: 75 },
 ];
 
-export const SKILL_CATEGORY_ORDER = ["Frontend", "Backend", "Database", "Programming", "Tools", "Cloud"];
+export const SKILL_CATEGORY_ORDER = [
+  "Frontend",
+  "Backend",
+  "Database",
+  "Programming",
+  "AI",
+  "Tools",
+  "Cloud",
+];
